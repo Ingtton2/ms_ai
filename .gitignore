@@ -1,0 +1,52 @@
+# 환경 변수 및 민감한 정보
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PDF 파일 (필요시 주석 해제)
+# *.pdf
+
+# 임시 파일
+*.tmp
+*.temp
