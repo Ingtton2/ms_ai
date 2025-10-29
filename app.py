@@ -166,7 +166,7 @@ def get_chatbot_response(openai_client, deployment, query, context_chunks):
     context = "\n\n".join(context_chunks) if context_chunks else "관련 문서를 찾을 수 없습니다."
     
     # 시스템 프롬프트
-    system_message = """당신은 AntBot으로, 우리 팀의 솔루션 매뉴얼을 기반으로 질문에 답변하는 친절한 도우미입니다.
+    system_message = """당신은 AntBot 솔루션 매뉴얼을 기반으로 질문에 답변하는 친절한 도우미입니다.
     
 다음 규칙을 따라주세요:
 1. 제공된 문서 컨텍스트를 기반으로 정확하게 답변하세요.
@@ -202,8 +202,8 @@ def main():
     # 헤더
     st.markdown("""
         <div class="title-container">
-            <h1>🤖 AntBot</h1>
-            <p class="subtitle">팀 솔루션 매뉴얼 기반 AI 도우미</p>
+            <h1>🤖 AntBot Assistant</h1>
+            <p class="subtitle">AntBot 초보자를 위한 AI 도우미</p>
         </div>
     """, unsafe_allow_html=True)
     
@@ -235,7 +235,7 @@ def main():
         st.divider()
         
         st.subheader("📚 문서 정보")
-        st.info("**매뉴얼:** antbot_manual.pdf")
+        st.info("**매뉴얼:** AntBot 포털 내 가이드 문서")
         
         st.divider()
         
@@ -244,7 +244,7 @@ def main():
             st.rerun()
         
         st.divider()
-        st.caption("Made with ❤️ for the team")
+        st.caption("Made with ❤️ for the team  ")
     
     # Azure 클라이언트 초기화
     try:
