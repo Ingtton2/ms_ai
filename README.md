@@ -40,7 +40,8 @@ Azure OpenAI와 Blob Storage를 활용한 팀 솔루션 매뉴얼 기반 AI 챗�
 6. **답변 생성**: Azure OpenAI에 컨텍스트와 질문 전달하여 답변 생성
 7. **결과 표시**: 채팅 인터페이스에 답변 표시
 
-
+## Azure App Service 링크 
+https://pro-inseon-web-1029.azurewebsites.net/
 
 ---
 
