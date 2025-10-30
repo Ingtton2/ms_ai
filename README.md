@@ -1,4 +1,4 @@
-# 🤖 AntBot - 팀 솔루션 챗봇
+# 🤖 AntBot Assistant
 
 Azure OpenAI와 Blob Storage를 활용한 팀 솔루션 매뉴얼 기반 AI 챗봇입니다.
 - 앤트봇 portal : https://portal.antbot.co.kr/
