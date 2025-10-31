@@ -28,6 +28,9 @@ Azure OpenAI와 Blob Storage를 활용한 팀 솔루션 매뉴얼 기반 AI 챗�
 - "Copilot 신규 기능은 어떤게 있나요?"
 - "사용자 권한 설정은 어떻게 하나요?"
 
+<img width="930" height="903" alt="image" src="https://github.com/user-attachments/assets/95038f37-d71b-4051-a4b1-4b3ce3e4b4a4" />
+
+
 ## 🛠️ 구조 및 작동 원리
 
 ### 작동 흐름
